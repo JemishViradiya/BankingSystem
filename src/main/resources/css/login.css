@@ -1,0 +1,82 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #ae768f    ;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    background-color: #bbb8cd;
+    padding: 3% 3% 2% 3%;
+    border-radius: 20px;
+}
+.card .emailid, .password{
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+i{
+    background-color: #00264d;
+    color: white;
+    padding: 10px 12px;
+}
+::placeholder{
+    color: white;
+}
+.emailid input, .password input{
+    letter-spacing: 1px;
+    padding: 10px;
+    width: 170px;
+    background-color:#385273;
+    color: white;
+    border: 0px;
+}
+.password i{
+    padding: 10px 10px;
+}
+.links{
+    display: flex;
+    padding: 8px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #00264d;
+    text-decoration: none;
+    font-size: 12px;
+}
+.links a{
+    color: #00264d;
+    text-decoration: none;
+}
+.login{
+    padding: 10px;
+}
+.login input{
+    width: 220px;
+    padding: 8px;
+    letter-spacing: 2px;
+    background-color: #00264d;
+    border: 0px;
+    color: white;
+    
+    cursor: pointer;
+}
+.icon-user i{
+    padding: 20px 30px 20px 30px;
+    font-size: 60px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: -50px;
+}
